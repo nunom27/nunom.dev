@@ -27,10 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <PlausibleProvider
-          domain="nunom.dev"
-          customDomain="https://plausible.home.nunom.dev"
-        />
+        <PlausibleProvider domain="nunom.dev" enabled />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
