@@ -2,11 +2,11 @@ import { ArrowUpRightIcon } from "@heroicons/react/24/outline";
 
 export default function Home() {
   return (
-    <main className="flex h-screen flex-col items-center justify-center gap-2 font-[family-name:var(--font-geist-mono)]">
-      <h1 className="font-[family-name:var(--font-geist-sans)] text-6xl font-bold">
+    <main className="flex h-screen flex-col items-center justify-center gap-2 p-2 font-[family-name:var(--font-geist-mono)]">
+      <h1 className="text-center font-[family-name:var(--font-geist-sans)] text-5xl font-bold md:text-6xl">
         nuno fernandes.
       </h1>
-      <p className="text-zinc-300">
+      <p className="px-3 text-center text-zinc-300 md:text-base">
         software engineering @ university of minho
       </p>
       <div className="mt-4 flex gap-4">
