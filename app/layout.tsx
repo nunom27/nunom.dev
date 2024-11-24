@@ -30,6 +30,7 @@ export default function RootLayout({
         <PlausibleProvider
           domain="nunom.dev"
           customDomain="https://plausible.home.nunom.dev"
+          enabled
         />
       </head>
       <body
