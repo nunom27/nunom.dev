@@ -9,12 +9,22 @@ export default function Home() {
       <p className="text-zinc-300">
         software engineering @ university of minho
       </p>
-      <a
-        href="https://github.com/your-github-username"
-        className="mt-4 flex items-center text-blue-600 hover:underline"
-      >
-        github <ArrowUpRightIcon className="ml-1 size-4" />
-      </a>
+      <div className="mt-4 flex gap-4">
+        <a
+          href="https://github.com/nunom27"
+          className="flex items-center text-blue-600 hover:underline"
+          target="_blank"
+        >
+          github <ArrowUpRightIcon className="ml-1 size-4" />
+        </a>
+        <a
+          href="https://linkedin.com/in/nunom27"
+          className="flex items-center text-blue-600 hover:underline"
+          target="_blank"
+        >
+          linkedin <ArrowUpRightIcon className="ml-1 size-4" />
+        </a>
+      </div>
     </main>
   );
 }
